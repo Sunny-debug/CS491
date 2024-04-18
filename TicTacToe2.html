@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>4x4 TicTacToe</title>
+<link rel="stylesheet" type="text/css" href="css/TicTacToe.css">
+<script src="js/TicTacToe.js"></script>
+</head>
+<body>
+<header>
+
+
+
+<h1>4x4 TicTacToe</h1>
+<p style="font-size: 50px"> </p>
+	<div class="container">
+		<div class="row">
+			<div class="cell" id="cell00" onclick="playerMove(0, 0)"></div>
+			<div class="cell" id="cell01" onclick="playerMove(0, 1)"></div>
+			<div class="cell" id="cell02" onclick="playerMove(0, 2)"></div>
+			<div class="cell" id="cell03" onclick="playerMove(0, 3)"></div>
+		</div>
+		<div class="row">
+			<div class="cell" id="cell10" onclick="playerMove(1, 0)"></div>
+			<div class="cell" id="cell11" onclick="playerMove(1, 1)"></div>
+			<div class="cell" id="cell12" onclick="playerMove(1, 2)"></div>
+			<div class="cell" id="cell13" onclick="playerMove(1, 3)"></div>
+		</div>
+		<div class="row">
+			<div class="cell" id="cell20" onclick="playerMove(2, 0)"></div>
+			<div class="cell" id="cell21" onclick="playerMove(2, 1)"></div>
+			<div class="cell" id="cell22" onclick="playerMove(2, 2)"></div>
+			<div class="cell" id="cell23" onclick="playerMove(2, 3)"></div>
+		</div>
+		<div class="row">
+			<div class="cell" id="cell30" onclick="playerMove(3, 0)"></div>
+			<div class="cell" id="cell31" onclick="playerMove(3, 1)"></div>
+			<div class="cell" id="cell32" onclick="playerMove(3, 2)"></div>
+			<div class="cell" id="cell33" onclick="playerMove(3, 3)"></div>
+		</div>
+	</div>
+	<p style="font-size: 350px" id="result"></p>
+	<button style="font-size: 50px" onClick="window.location.reload();">RESET</button>
+</body>
+</html>

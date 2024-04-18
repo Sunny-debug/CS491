@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<link rel="stylesheet" type="text/css" href="css/style2.css">
+<script src="js/feedbackPresent.js" defer></script>
+<script src="js/feedback.js" defer></script>
+<script src="js/feedbackPresent-Sources.js" defer></script>
+<script src="js/feedbackMain.js" defer></script>
+</head>
+<body>
+<header>
+  <div class="main"></div>
+  <ul>
+      <li class="home-button"><a href="index.html">Home</a></li>
+  </ul>
+      
+<form id="feedback-form" onsubmit="return validateForm()">
+  <label for="name">Full Name:</label>
+  <input type="text" id="name" name="name"><br>
+
+  <label for="address">Address:</label>
+  <input type="text" id="address" name="address"><br>
+
+  <label for="phone">Phone:</label>
+  <input type="text" id="phone" name="phone"><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br>
+
+  <label for="comments">Comments:</label>
+  <textarea id="comments" name="comments"></textarea><br>
+
+  <input type="submit" value="Submit">
+
+</form>
+
+<p style="font-size: 18px" id="result"></p> 
+<div id="presents"  style="width:max-content; margin:0 auto;" hidden></div>
+
+<div id="submitAgain"  style="width:max-content; margin:0 auto;" hidden>
+  <button onClick="window.location.reload();" 
+  style="width: fit-content; height: 50px; margin-top: 25px; font-size: 25px; background-color: cyan; cursor: pointer;">
+    Submit another feedback
+  </button>
+</div>
+</body>
+</header>
+</body>
+</html>
