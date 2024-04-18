@@ -1,0 +1,39 @@
+.container {
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.cell {
+	width: 100px;
+	height: 100px;
+	border: 2px solid black;
+	font-size: 72px;
+	text-align: center;
+	line-height: 100px;
+	cursor: pointer;
+}
+
+.cell:hover {
+	background-color: #eee;
+}
+
+p {
+	position: absolute;
+    top: -35%;
+    left: -12%;
+    transform: translate(200px);
+}
+
+button {
+position: absolute;
+top: 82%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
